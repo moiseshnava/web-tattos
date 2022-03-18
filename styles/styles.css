@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+
+/*-------------------- header -------------------- */
+header {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  align-items: center;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  background: radial-gradient(
+    circle,
+    rgba(5, 18, 70, 1) 28%,
+    rgba(6, 0, 0, 0.989233193277311) 92%
+  );
+  box-shadow: 10px 10px 14px #040f20, -12px -12px 18px rgb(10, 10, 10);
+}
+
+.navegador {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 7fr 5fr;
+}
+.fig-icon {
+  display: flex;
+  align-items: center;
+  width: 14rem;
+}
+.fig-icon img {
+  width: 14rem;
+  height: 90%;
+}
+.navegador .container-ul--input {
+  justify-content: flex-end;
+  margin-right: 0.8rem;
+}
+
+.container-ul--input {
+  display: flex;
+  align-items: center;
+}
+.container-ul--input ul {
+  background-color: transparent;
+  display: flex;
+}
+
+.container-ul--input ul li {
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  list-style-type: none;
+}
+.container-ul--input ul li a {
+  color: aliceblue;
+  font-style: none;
+  font-weight: 900;
+  text-decoration: none;
+}
+.container-ul--input ul li a:hover {
+  box-shadow: #06578d41 2px 2px 2px 20px;
+  border-radius: 8px;
+}
+.container-ul--input input {
+  width: 30rem;
+  height: 3rem;
+  border-radius: 1.4rem;
+  border: none;
+  border: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.75px;
+  padding: 1rem;
+}
+
+/*-------------------- main -------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  z-index: 1;
+}
+.section-1 {
+  display: flex;
+  width: 100%;
+  height: 90rem;
+  background-image: url("../assets/img/sections/man2.png");
+  background-repeat: round;
+  background-size: auto;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80rem;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/img/sections/backg1.png");
+  background-repeat: round;
+  background-size: auto;
+}
+
+.section-2 h2 {
+  font-size: 5rem;
+  color: rgb(239, 243, 243);
+  text-shadow: 0.5rem 5px 5px #0f66adc7, -5px -5px 7px rgb(16, 138, 168);
+  margin-bottom: 4rem;
+
+}
+
+.section-2--cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 90%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  width: 90%;
+  height: 60rem;
+  border-radius: 2.4rem;
+  background-color: #040f20;
+  box-shadow: 10px 10px 14px #0c2336c7, -12px -12px 18px rgb(12, 12, 12);
+}
+
+.card-container:hover {
+  width: 100%;
+  transition-duration: 1s;
+}
+
+
+.card-head1 {
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-image: url("../assets/img/tattos/tatto4.png");
+  background-repeat: round;
+  background-size: auto;
+}
+.card-head2 {
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-image: url("../assets/img/pircing/pircing4.png");
+  background-repeat: round;
+  background-size: auto;
+}
+.card-head3 {
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  background-image: url("../assets/img/barber/barberman.png");
+  background-repeat: round;
+  background-size: auto;
+}
+.card-main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+.card-main h1{
+  color: aliceblue;
+  font-size: 2.4rem;
+}
+
+.card-main p {
+  text-align: center;
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.section-3 {
+  width: 100%;
+  height: 95rem;
+  background: url("../assets/img/sections/cut.png");
+  background-repeat: round;
+  background-size: auto;
+}
+
+/*-------------------- footer -------------------- */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 11rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  
+}
+
+footer p {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+
+
+
+/*-------------------- Moises Hernandez Nava -------------------- */
